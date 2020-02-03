@@ -1,0 +1,20 @@
+2020/2/5 星期三 17:04:58: Creating log...
+
+		C:\Users\33572\Desktop\GIT\Snake-GUI\main.cpp	In function 'int WinMain(HINSTANCE, HINSTANCE, LPSTR, int)':
+37	5	C:\Users\33572\Desktop\GIT\Snake-GUI\main.cpp	[Error] 'WNDCLASSEX' has no member named 'A'
+29		C:\Users\33572\Desktop\GIT\Snake-GUI\Makefile.win	recipe for target 'Windows_programs/Obj_file/main.o' failed
+
+2020/2/5 星期三 17:11:53: Appending to log...
+
+		C:\Users\33572\Desktop\GIT\Snake-GUI\main.cpp	In function 'int WinMain(HINSTANCE, HINSTANCE, LPSTR, int)':
+37	46	C:\Users\33572\Desktop\GIT\Snake-GUI\main.cpp	[Error] cannot convert 'const char*' to 'HINSTANCE' for argument '1' to 'HICON__* LoadIconA(HINSTANCE, LPCSTR)'
+29		C:\Users\33572\Desktop\GIT\Snake-GUI\Makefile.win	recipe for target 'Windows_programs/Obj_file/main.o' failed
+
+2020/2/5 星期三 17:12:06: Appending to log...
+
+		C:\Users\33572\Desktop\GIT\Snake-GUI\main.cpp	In function 'int WinMain(HINSTANCE, HINSTANCE, LPSTR, int)':
+37	46	C:\Users\33572\Desktop\GIT\Snake-GUI\main.cpp	[Error] invalid conversion from 'char' to 'HINSTANCE' [-fpermissive]
+72	0	C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\include\windows.h	In file included from C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include/windows.h
+1		C:\Users\33572\Desktop\GIT\Snake-GUI\main.cpp	                 from main.cpp
+3419	27	C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\include\winuser.h	[Note] initializing argument 1 of 'HICON__* LoadIconA(HINSTANCE, LPCSTR)'
+29		C:\Users\33572\Desktop\GIT\Snake-GUI\Makefile.win	recipe for target 'Windows_programs/Obj_file/main.o' failed
